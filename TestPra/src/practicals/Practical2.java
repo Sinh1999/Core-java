@@ -6,7 +6,7 @@ public class Practical2 {
 	public static void main(String[] args) {
 		
 		/*
-		 * Controll Flow statemnet If or Else block
+		 * Control Flow statement If or Else block
 		 */
 		
 		int age = 19 ;

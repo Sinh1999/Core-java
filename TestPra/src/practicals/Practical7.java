@@ -24,7 +24,7 @@ public class Practical7 {
 	public static void main(String[] args) {
 		
 		/*
-		 * Create new keyword using objcet to calling constructor 
+		 * Create new keyword using object to calling constructor 
 		 */
 		
 		Practical7 defaul = new Practical7(); 
