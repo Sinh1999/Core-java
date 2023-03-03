@@ -1,5 +1,4 @@
 package practicals.oops.encapsulation;
-
 /**
  * Practical-14 Encapsulation example in employee details.
  * 
@@ -7,15 +6,12 @@ package practicals.oops.encapsulation;
  * 
  * @since 01-03-2023
  *
- *@version 14.0.2
+ * @version 1.0.1
  */
-
 public class Encapsulation {
 
 	public static void main(String[] args) {
-		
 		EmployeeDetails employeeDetails = new EmployeeDetails();
-		
 		 // Set the date for employee details 
 		employeeDetails.setName("Shailesh");
 		employeeDetails.setNumber(789456132);

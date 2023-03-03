@@ -7,6 +7,7 @@ package practicals.collection;
  * 
  * @since 01-03-2023
  *
+ * @version 1.0.1
  */
 
 import java.util.ArrayList;
@@ -16,7 +17,6 @@ import java.util.List;
 public class Collections {
 
 	public static void main(String[] args) {
-		
 		 // List in add some animal name 
 		List<String> list =  new ArrayList<>();
 		

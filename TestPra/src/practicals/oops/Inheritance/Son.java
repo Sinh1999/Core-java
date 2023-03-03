@@ -1,5 +1,4 @@
 package practicals.oops.Inheritance;
-
 /**
  * Practical-15 A program to demonstrate all types of Inheritance concepts like
  * 
@@ -12,13 +11,18 @@ package practicals.oops.Inheritance;
  * 
  * @since 01-03-2023
  *
- *@version 15.0.3
+ * @version 1.0.1
  */
-
 public class Son extends Father{
-
-	 // Multi-Level Inheritance
-	void son() {
+	/**
+	 *This method is Only print statement.
+ 	 * 
+	 * @author Shailesh Sinh
+	 * 
+	 * @since 01-03-2023
+	 *
+	 */ 
+	public void son() {
 		System.out.println("I am son");
 	}
 }

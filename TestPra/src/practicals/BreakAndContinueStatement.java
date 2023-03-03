@@ -1,5 +1,4 @@
 package practicals;
-
 /**
  * Practical-6 The example of a break/Continue statement. 
  * 
@@ -7,21 +6,17 @@ package practicals;
  * 
  * @since 28-02-2023
  *
+ * @version 1.0.1
  */
-
 public class BreakAndContinueStatement  {
 
 	public static void main(String[] args) {
-		
 		for (int i = 0; i <= 15; i++) {
-			
-			if(i == 7) {//The number is true there is skip and continue
+			if(i == 7) { // The number is true there is skip and continue
 				continue;
-			} else if(i > 12){//The number is true there is stop or break the loop
-				
+			} else if(i > 12){ // The number is true there is stop or break the loop
 				break;
 			}
-			
 			System.out.println(i);
 		}
 	}

@@ -1,24 +1,21 @@
 package practicals;
-
 /**
  * Practical-10 programs of all the string methods
- * 
  * 
  * @author Shailesh Sinh
  * 
  * @since 28-02-2023
  *
+ * @version 1.0.1
  */
-
 public class StringMethods {
 
 	public static void main(String[] args) {
-		
 	// String variable value declare
 	String string = "Hello String";
 	String string2 = "hello String";
 	
-	 // Return Return the character at the specified index (position)
+	 // Return the character at the specified index (position)
 	System.out.println("Character at the specified index : " + string.charAt(6));
 	
 	// Returns the length of a specified string
@@ -36,10 +33,10 @@ public class StringMethods {
 	 // Compares two strings lexicographically
 	System.out.println("Compares two strings lexicographically : " + string.compareTo(string2));
 	
-	 // Return Return the character at the specified index (position)
+	 // Return the character at the specified index (position)
 	System.out.println("Compares two strings lexicographically, ignoring case differences : " + string.compareToIgnoreCase(string2));
 	
-	 // Return Return the character at the specified index (position)
+	 // Return the character at the specified index (position)
 	System.out.println("The hash code of a string : " + string.hashCode());
 	
 	 // Indent is space created 
@@ -59,7 +56,6 @@ public class StringMethods {
 	
 	 // Converts a string to upper case letters
 	System.out.println("Converts a string to upper case letters : " + string.toUpperCase());
-	
 	}
 	
 }

@@ -1,5 +1,4 @@
 package practicals.array;
-
 /**
  * Practical-9 A  a program to find the index of an array element.
  * 
@@ -7,34 +6,40 @@ package practicals.array;
  * 
  * @since 01-03-2023
  *
+ * @version 1.0.1
  */
-
 public class ArrayExample {
-
-	 // The method is find out the given number is array element index  
-	static void findIndexArray(int arr[], int element) {
-		
+	
+	/**
+	 *This method is create for findArray element index {@link Number#}
+	 * 
+	 * @param Ineteger number like array in available
+	 * @param Ineteger Array
+	 * 
+	 * @author Shailesh Sinh
+	 * 
+	 * @since 01-03-2023
+	 *
+	 */
+	public void findIndexArray(int arr[], int element) {
 		// Check array in element available or not
 		if (arr.length < 0) {
-			
 			System.out.println("Array Not valid");
 		} else {
-			
-			  for (int i = 0; i < arr.length; i++) {
-					
-				 // Compare to elemnet number and array elment if exixt or not 
-					if(arr[i] == element) {
+			for (int i = 0; i < arr.length; i++) {	
+				 // Compare to elemnet number and array elment if exist or not 
+				if(arr[i] == element) {
 					System.out.println("Your array element " + arr[i] + " index number is : " + i);
-					}
 				}
+			}
 		}
 	}
 	
 	public static void main(String[] args) {
-		
 		int array[] = {5,7,8,9,4,2};
 		
-		findIndexArray(array, 9);
+		ArrayExample arrayExample = new ArrayExample();
+		arrayExample.findIndexArray(array, 9);
 	}
 	
 }

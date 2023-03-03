@@ -1,5 +1,4 @@
 package practicals.collection;
-
 /**
  * Practical-23 A program to demonstrate comparable and comparator interface.
  * 
@@ -9,21 +8,18 @@ package practicals.collection;
  * 
  * @since 01-03-2023
  *
+ * @version 1.0.1
  */
-
 public class CarsDetails implements Comparable<CarsDetails> {
 
-	String carName;
+	public String carName; 
 	
-	String carModel;
+	public String carModel;
 	
-	Integer carPrice;
+	public Integer carPrice;
 
-	//Comparable method in single object sort.
-	//Comparable method  implement by carPrices 
 	@Override
 	public int compareTo(CarsDetails price) {
-		
 		return carPrice - price.carPrice;
 	}
 
@@ -38,7 +34,5 @@ public class CarsDetails implements Comparable<CarsDetails> {
 		this.carPrice = carPrice;
 
 	}
-	
-	
 
 }

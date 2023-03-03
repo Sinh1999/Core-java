@@ -1,5 +1,4 @@
 package practicals;
-
 /**
  * Practical-3 a program to find the current month name from the given number of the switch case. 
  * 
@@ -7,72 +6,71 @@ package practicals;
  * 
  * @since 28-02-2023
  *
+ * @version 1.0.1
  */
-
 import java.util.Scanner;
 
-public class SwitchCaseStatement {
+public class MonthFind {
 
 	public static void main(String[] args) {
-		
 		// Scanner class to use of user input
 		Scanner scanner = new Scanner(System.in);
 		
 		int month = scanner.nextInt();
 		
-		switch (month){
+		switch (month) {
 		
 			case 1:
 				System.out.println("January");
-			break;
+				break;
 
 			case 2:
 				System.out.println("Febuary");
-			break;
+				break;
 			
 			case 3:
 				System.out.println("March");
-			break;
+				break;
 			
 			case 4:
 				System.out.println("April");
-			break;
+				break;
 			
 			case 5:
 				System.out.println("May");
-			break;
+				break;
 			
 			case 6:
 				System.out.println("June");
-			break;
+				break;
 			
 			case 7:
 				System.out.println("July");
-			break;
+				break;
 			
 			case 8:
 				System.out.println("August");
-			break;
+				break;
 			
 			case 9:
 				System.out.println("September");
-			break;
+				break;
 			
 			case 10:
 				System.out.println("Octber");
-			break;
+				break;
 			
 			case 11:
 				System.out.println("November");
-			break;
+				break;
 			
 			case 12:
 				System.out.println("Decmber");
-			break;
+				break;
 
 			default:
 				System.out.println("Your output is worng");
-			break;
+				break;
 		}
 	}
 	

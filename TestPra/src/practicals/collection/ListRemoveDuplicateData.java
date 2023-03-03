@@ -7,6 +7,7 @@ package practicals.collection;
  * 
  * @since 01-03-2023
  *
+ * @version 1.0.1
  */
 
 import java.util.ArrayList;
@@ -15,7 +16,6 @@ import java.util.List;
 public class ListRemoveDuplicateData {
 
 	public static void main(String[] args) {
-		
 		// Add list in duplicate data 
 		List<String> list =  new ArrayList<>();
 		
@@ -28,23 +28,17 @@ public class ListRemoveDuplicateData {
 		list.add("C");
 		list.add("E");
 		
-		for (int i = 0; i <list.size(); i++) {
-			
+		for (int i = 0; i < list.size(); i++) {
 			for (int j = i+1; j < list.size(); j++) {
-				
-				if (list.get(i).equals(list.get(j))) {//Check in list duplicate data available or note .
-					
+				if (list.get(i).equals(list.get(j))) { // Check in list duplicate data available or note .
 					 list.remove(i);
 				}
 			}
 		}
-		
 		// New List data get and print all data
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println("New List : " + list.get(i));
 		}
-		
-		
-		
 	}
+	
 }

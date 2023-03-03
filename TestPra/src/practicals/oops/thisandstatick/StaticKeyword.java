@@ -1,5 +1,4 @@
 package practicals.oops.thisandstatick;
-
 /**
  * Practical-12 A program to demonstrate static methods, variables, and blocks.
  * 
@@ -7,32 +6,45 @@ package practicals.oops.thisandstatick;
  * 
  * @since 01-03-2023
  *
+ * @version 1.0.1
  */
-
 public class StaticKeyword {
 
 	// Static Block run before main method
 	static {
 		System.out.println("Wel-Come");
 	}
-	
 	String name ;
 	
 	 // Static variable 
-	static String companyName= "Qdev";
-	
-	 // Static method 
-	static void greeting() {
+	public static String companyName= "Qdev";
+	/**
+	 *This method is static print statement.
+ 	 * 
+	 * @author Shailesh Sinh
+	 * 
+	 * @since 01-03-2023
+	 *
+	 */
+ 	public static void greeting() {
 		System.out.println("Hello, Good Moring");
 	}
-	
-	void details(String name1) {
+ 	/**
+	 *This method is Only print statement.
+	 *
+	 *@param String 
+ 	 * 
+	 * @author Shailesh Sinh
+	 * 
+	 * @since 01-03-2023
+	 *
+	 */
+	public void details(String name1) {
 		this.name = name1;
-		System.out.println("Name : " + name + "  " +companyName);
+		System.out.println("Name : " + name + "  " + companyName);
 	}
 	
 	public static void main(String[] args) {
-		
 		 // Static method or variable without create new object use
 		greeting();
 		StaticKeyword staticKeyword = new StaticKeyword();

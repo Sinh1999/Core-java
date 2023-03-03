@@ -1,5 +1,4 @@
 package practicals.oops.Inheritance;
-
 /**
  * Practical-15 A program to demonstrate all types of Inheritance concepts like
  * 
@@ -12,14 +11,20 @@ package practicals.oops.Inheritance;
  * 
  * @since 01-03-2023
  *
- *@version 15.0.4
+ * @version 1.0.1
  */
-
 public class Daughter extends Father{
-
-	 // Hierarchical Inheritance
-	void daughter() {
+	
+	/**
+	 *This method is Only print statement.
+ 	 * 
+	 * @author Shailesh Sinh
+	 * 
+	 * @since 01-03-2023
+	 *
+	 */
+	public void daughter() {
 		System.out.println("I am daughter");
 	}
-	
+
 }
