@@ -25,7 +25,6 @@ public class CalculateEmi {
 		this.time = years;
 		 
 		rate = rate/(12*100); 
-		
 		time = time*12;
 		
 		System.out.println("Your Per Month EMI Amount : " + (principalAmount * rate * Math.pow(1+rate, time) / (Math.pow(1+rate, time)-1)));
