@@ -1,6 +1,16 @@
 package practicals.oops.abstaction;
 
-public class Practical13 extends HidingDetails {
+/**
+ * Practical-13 Encapsulation example in employee details.
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 01-03-2023
+ *
+ *@version 13.0.2
+ */
+
+public class AbstractionExtends extends HidingDetails {
 
 	/*
 	 * Abstract method implemented
@@ -12,9 +22,9 @@ public class Practical13 extends HidingDetails {
 	}
 	public static void main(String[] args) {		
 	
-		Practical13 prac13 = new Practical13();
+		AbstractionExtends abstractionExtends = new AbstractionExtends();
 		
-		prac13.call();
-		prac13.run();
+		abstractionExtends.call();
+		abstractionExtends.run();
 	}
 }

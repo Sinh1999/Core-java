@@ -1,11 +1,19 @@
 package practicals.oops.interfac;
 
-public interface InterfaceMethods {
+/**
+ * Practical-17 a program to demonstrate the interface.
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 01-03-2023
+ *
+ *@version 17.0.1
+ */
 
-	/*
-	 * Method create for using Interface.
-	 */
+public interface InterfaceMethods {
 	
+	//Interface method declared
 	void call();
 	void run();
+	
 }

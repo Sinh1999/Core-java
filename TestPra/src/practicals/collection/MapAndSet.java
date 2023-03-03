@@ -1,14 +1,24 @@
 package practicals.collection;
 
+/**
+ * Practical-21 A program using Map and Set concepts.
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 01-03-2023
+ *
+ */
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Practical21 {
+public class MapAndSet {
 
 	public static void main(String[] args) {
 		
+		// Use map in key value pair 
 		Map<Integer, String> map =  new HashMap<>();
 		
 		map.put(1,"Sailesh");
@@ -16,15 +26,13 @@ public class Practical21 {
 		map.put(3,"Javin");
 		map.put(4,"Kevin");
 		
-		System.out.println(map.get(2));
-		
-		for (int i = 0; i <= map.size(); i++)
-		{
-			
+		//Map in get values for use keys
+		for (int i = 0; i <= map.size(); i++) {
+
 			System.out.println(map.get(i));
-			
 		}
 		
+		// Set in data is no duplication.
 		Set<String> set = new HashSet<>();
 		
 		set.add("India");
@@ -36,4 +44,5 @@ public class Practical21 {
 		System.out.println(set);
 		
  	}
+	
 }

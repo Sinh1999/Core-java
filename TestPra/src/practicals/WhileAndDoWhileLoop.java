@@ -1,6 +1,15 @@
 package practicals;
 
-public class Practical4 {
+/**
+ * Practical-4 The use of while loop and do while loop.  
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 28-02-2023
+ *
+ */
+
+public class WhileAndDoWhileLoop {
 
 	public static void main(String[] args) {
 		
@@ -18,8 +27,7 @@ public class Practical4 {
 		do {
 			System.out.println("Number for doWhile loop : "+ num2);
 			num2 ++;
-		} 
-		while (num2 <= 10);
+		} while (num2 <= 10);
 		
 	}
 	

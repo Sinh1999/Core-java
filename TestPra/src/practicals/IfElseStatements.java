@@ -1,34 +1,28 @@
 package practicals;
 
+/**
+ * Practical-2 A program to demonstrate the use of if / else statements.
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 28-02-2023
+ *
+ */
 
-public class Practical2 {
+public class IfElseStatements {
 
 	public static void main(String[] args) {
 		
-		/*
-		 * Control Flow statement If or Else block
-		 */
-		
 		int age = 19 ;
 		
-		/*
-		 * This is if part in true condition
-		 */
-		
-		if (age >= 18) 
-		{
-			System.out.println("You are adult");
-								   
-		} 
-		
-		/*
-		 * This is else part in false condition 
-		 */
-		
-		else 
-		{
-			System.out.println("You are not adult");
+		//If Check Your age You are Adult or not.
+		if (age >= 18){
 			
+			System.out.println("You are adult");				   
+		} else {
+			
+			System.out.println("You are not adult");
 		}
 	}
+	
 }

@@ -1,23 +1,27 @@
 package practicals;
 
-public class Practical9 {
+/**
+ * Practical-9 A  practical to compare two variables of Wrapper class using Wrapper classes.
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 01-03-2023
+ *
+ */
+
+public class WrapperClasses {
 
 	public static void main(String[] args) {
-		
-		/*
-		 * Using Integer for Wrapper class.
-		 * Compare to another data type object then Compile time error showing 
-		 */
-		
+
+		// Integer using Wrapper class 
 		Integer num = 102;
 		
 		Integer num2 = 103;
 		
-		if (num == num2)
-		{
+		if (num == num2){
+			
 			System.out.println("Same Objects");
-		}
-		else 
+		}else 
 		{
 			System.out.println("Not same objects");
 		}

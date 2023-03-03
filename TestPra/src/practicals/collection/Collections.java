@@ -1,17 +1,23 @@
 package practicals.collection;
 
+/**
+ * Practical-20 A program to add string values in the list and print all the values using an iterator.
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 01-03-2023
+ *
+ */
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Practical20 {
+public class Collections {
 
 	public static void main(String[] args) {
 		
-		/*
-		 * List in adda some animal name 
-		 */
-		
+		 // List in add some animal name 
 		List<String> list =  new ArrayList<>();
 		
 		list.add("Dog");
@@ -19,10 +25,7 @@ public class Practical20 {
 		list.add("Cow");
 		list.add("Lion");
 		
-		/*
-		 * Iterator using geting data
-		 */
-		
+		 //Iterator using getting data
 		Iterator iterator = list.iterator();
 		
 		while (iterator.hasNext()) {
@@ -30,4 +33,5 @@ public class Practical20 {
 			
 		}
 	}
+	
 }

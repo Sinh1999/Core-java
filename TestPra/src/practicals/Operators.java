@@ -1,30 +1,33 @@
 package practicals;
 
-public class Practical8 {
+/**
+ * Practical-8 A program to calculate EMI using Class, Object, Variables, Operators, and Datatypes.
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 28-02-2023
+ *
+ */
 
-	/*
-	 * Interest Rate per month	
-	 */
+public class Operators {
+
+	//Loan Rate or percentage
 	float rate ; 
 	
-	/*
-	 * Loan Amount 	
-	 */
+	 //Loan Amount 	
 	float principalAmount;
 	
-	/*
-	 * Loan time period in year  
-	 */
+	 //Loan time period in year  
 	float time;
 	
 	
 	
-	public Practical8(float pa, float r, float t) {
+	public Operators(float amount, float percentage, float years) {
 		
 		
-		rate = r;
-		principalAmount =pa;
-		time = t;
+		rate = percentage;
+		principalAmount = amount;
+		time = years;
 		 
 		rate=rate/(12*100); 
 		
@@ -36,11 +39,8 @@ public class Practical8 {
 
 	public static void main(String[] args) {
 		
-		/*
-		 * Pass arguments in constructor for loan details 
-		 */
-		
-		Practical8 obj =  new Practical8(1200, 10, 1);
+		Operators calculateEmi =  new Operators(1200, 10, 1);
  		
 	}
+	
 }

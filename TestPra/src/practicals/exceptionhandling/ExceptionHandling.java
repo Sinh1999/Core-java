@@ -1,7 +1,18 @@
 package practicals.exceptionhandling;
 
-public class Practical18 {
+/**
+ * Practical-18 a program to handle exceptions using try, catch, finally, throw, and throws keywords.
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 01-03-2023
+ *
+ *@version 18.0.1
+ */
+
+public class ExceptionHandling {
 	
+	// Method create and return to throw exception
 	static void ageCount(int age) {
 		if(age < 18) 
 		{
@@ -16,23 +27,21 @@ public class Practical18 {
 	public static void main(String[] args) {
 		
 		int num = 50 ;
-		
+	
+		// Try Block in excuted code writing
 		try {
 			num = num/0;
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e){// Catch block in exception show
 			
 			System.out.println(e);
-			
 			System.out.println("Check Your code");
 		}
-		finally 
-		{
-			System.out.println("Final block is always excicute ");
+		//Final block is always execute 
+		finally {
+			System.out.println("Final block is always excicute");
 		}
 		
 		ageCount(13);
-		
 	}
+	
 }

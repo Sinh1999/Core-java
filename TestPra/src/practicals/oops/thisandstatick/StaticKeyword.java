@@ -1,27 +1,27 @@
-package practicals.oops.practical11;
+package practicals.oops.thisandstatick;
 
-public class Practical12 {
+/**
+ * Practical-12 A program to demonstrate static methods, variables, and blocks.
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 01-03-2023
+ *
+ */
 
-	/*
-	 * Static Block run before main method
-	 */
-	
+public class StaticKeyword {
+
+	// Static Block run before main method
 	static {
 		System.out.println("Wel-Come");
 	}
 	
 	String name ;
 	
-	/*
-	 * Static variable 
-	 */
-	
+	 // Static variable 
 	static String companyName= "Qdev";
 	
-	/*
-	 * Static method 
-	 */
-	
+	 // Static method 
 	static void greeting() {
 		System.out.println("Hello, Good Moring");
 	}
@@ -33,12 +33,10 @@ public class Practical12 {
 	
 	public static void main(String[] args) {
 		
-		/*
-		 * Static method or variable without create new object use
-		 */
-		
+		 // Static method or variable without create new object use
 		greeting();
-		Practical12 practical12 = new Practical12();
-		practical12.details("shailesh");
+		StaticKeyword staticKeyword = new StaticKeyword();
+		staticKeyword.details("shailesh");
 	}
+	
 }

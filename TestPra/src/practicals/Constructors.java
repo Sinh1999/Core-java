@@ -1,19 +1,28 @@
 package practicals;
 
-public class Practical7 {
+/**
+ * Practical-7 The example of default constructor and Parameterized constructor. 
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 28-02-2023
+ *
+ */
+
+public class Constructors {
 
 	int num1 ;
 	
 	int num2 ;
 	
 	//Default constructor 
-	public Practical7() {
+	public Constructors() {
 
 		System.out.println("This is Default Constuctor");
 	}
 	
-	//Parameter constructor 
-	public Practical7(int number1, int number2) {
+	//Parameterized constructor 
+	public Constructors(int number1, int number2) {
 		
 		num1 = number1;
 		num2 = number2;
@@ -27,12 +36,11 @@ public class Practical7 {
 		 * Create new keyword using object to calling constructor 
 		 */
 		
-		Practical7 defaul = new Practical7(); 
+		Constructors defaultConstructor = new Constructors(); 
 		
-		Practical7 perameter = new Practical7(2, 3);
+		Constructors parameterizedConstructor = new Constructors(2, 3);
 		
 	}
-
-	
 	
 }
+

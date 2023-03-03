@@ -1,11 +1,18 @@
 package practicals.oops.interfac;
 
-public class Practical17 implements InterfaceMethods {
+/**
+ * Practical-17 a program to demonstrate the interface.
+ * 
+ * @author Shailesh Sinh
+ * 
+ * @since 01-03-2023
+ *
+ *@version 17.0.2
+ */
 
-	/*
-	 * Interface methods implemented
-	 */
-	
+public class InterfaceImpl implements InterfaceMethods {
+
+	 // Interface methods implemented
 	@Override
 	public void call() {
 		System.out.println("Calling method call");
@@ -19,9 +26,10 @@ public class Practical17 implements InterfaceMethods {
 	
 	public static void main(String[] args) {
 		
-		Practical17  practical17 =  new Practical17();
+		InterfaceImpl  interfaceImpl =  new InterfaceImpl();
 		
-		practical17.call();
-		practical17.run();
+		interfaceImpl.call();
+		interfaceImpl.run();
 	}
+	
 }
