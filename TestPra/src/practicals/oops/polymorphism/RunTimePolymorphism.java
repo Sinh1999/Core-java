@@ -9,14 +9,13 @@ package practicals.oops.polymorphism;
  * @version 1.0.1
  */
 public class RunTimePolymorphism {
+	
 	/**
 	 *This method is Only print statement.
-	 *
- 	 * 
+	 * 
 	 * @author Shailesh Sinh
 	 * 
 	 * @since 01-03-2023
-	 *
 	 */ 
  	public void method() {
 		System.out.println("RunTime Polymorphisam Method ");

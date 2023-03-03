@@ -14,15 +14,16 @@ package practicals.oops.Inheritance;
  * @version 1.0.1
  */
 public class Son extends Father{
+	
 	/**
 	 *This method is Only print statement.
  	 * 
 	 * @author Shailesh Sinh
 	 * 
 	 * @since 01-03-2023
-	 *
 	 */ 
 	public void son() {
 		System.out.println("I am son");
 	}
+	
 }

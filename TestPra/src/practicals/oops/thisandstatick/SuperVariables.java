@@ -9,13 +9,13 @@ package practicals.oops.thisandstatick;
  * @version 1.0.1
  */
 public class SuperVariables extends ThisVariables {
+
 	/**
 	 *This method is use of super key. 
  	 * 
 	 * @author Shailesh Sinh
 	 * 
 	 * @since 01-03-2023
-	 *
 	 */
 	public void number () {
 		System.out.println("This is super keyword :" + super.number);

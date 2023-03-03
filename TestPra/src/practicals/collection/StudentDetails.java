@@ -11,7 +11,6 @@ package practicals.collection;
  * @since 01-03-2023
  * 
  * @version 1.0.1
- *
  */
 public class StudentDetails implements Comparable<StudentDetails>{
 

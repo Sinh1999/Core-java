@@ -31,7 +31,6 @@ public class CalculateEmi {
 		System.out.println("Your Per Month EMI Amount : " + (principalAmount * rate * Math.pow(1+rate, time) / (Math.pow(1+rate, time)-1)));
 	}
 
-
 	public static void main(String[] args) {
 		CalculateEmi calculateEmi =  new CalculateEmi(1200, 10, 1);
 	}

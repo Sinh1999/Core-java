@@ -21,7 +21,6 @@ public class ThrowsExceptionHandling {
 	 * @author Shailesh Sinh
 	 * 
 	 * @since 01-03-2023
-	 *
 	 */
 	public void divide(int num , int num2)throws ArithmeticException {
 		int d = num/num2 ;

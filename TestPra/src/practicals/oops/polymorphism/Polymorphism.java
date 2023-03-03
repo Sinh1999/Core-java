@@ -1,7 +1,6 @@
 package practicals.oops.polymorphism;
 /**
  * Practical-16 a program to demonstrate two types of polymorphism like compile-time and runtime polymorphism.
-
  * 
  * @author Shailesh Sinh
  * 
@@ -15,6 +14,7 @@ public class Polymorphism extends RunTimePolymorphism{
 	public void compileMethod() {
 		System.out.println("Compile Polymorphisam method");
 	}
+	
 	 // Compiletime method in same name but arguments and return type difference
 	public void compileMethod(String message) {
 		System.out.println("Compile Polymorphisam method but argument different " + message );

@@ -24,7 +24,6 @@ public class StaticKeyword {
 	 * @author Shailesh Sinh
 	 * 
 	 * @since 01-03-2023
-	 *
 	 */
  	public static void greeting() {
 		System.out.println("Hello, Good Moring");
@@ -37,7 +36,6 @@ public class StaticKeyword {
 	 * @author Shailesh Sinh
 	 * 
 	 * @since 01-03-2023
-	 *
 	 */
 	public void details(String name1) {
 		this.name = name1;

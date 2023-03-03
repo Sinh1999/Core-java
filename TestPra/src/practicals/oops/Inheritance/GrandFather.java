@@ -21,7 +21,6 @@ public class GrandFather {
 	 * @author Shailesh Sinh
 	 * 
 	 * @since 01-03-2023
-	 *
 	 */
 	public void grandParent() {
 		System.out.println("I am GrandFather");

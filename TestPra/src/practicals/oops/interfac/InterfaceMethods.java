@@ -17,7 +17,6 @@ public interface InterfaceMethods {
 	 * @author Shailesh Sinh
 	 * 
 	 * @since 01-03-2023
-	 *
 	 */
 	public void call();
 	
@@ -27,7 +26,7 @@ public interface InterfaceMethods {
 	 * @author Shailesh Sinh
 	 * 
 	 * @since 01-03-2023
-	 *
 	 */
 	public void run();
+	
 }

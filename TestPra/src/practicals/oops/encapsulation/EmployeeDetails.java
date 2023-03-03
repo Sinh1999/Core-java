@@ -9,6 +9,7 @@ package practicals.oops.encapsulation;
  * @version 1.0.1
  */
 public class EmployeeDetails {
+	
 	// Private Access modifier using only class 
 	private String name;
 	
