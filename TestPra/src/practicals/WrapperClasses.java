@@ -8,7 +8,6 @@ package practicals;
  *
  * @version 1.0.1
  */
-
 public class WrapperClasses {
 
 	public static void main(String[] args) {
