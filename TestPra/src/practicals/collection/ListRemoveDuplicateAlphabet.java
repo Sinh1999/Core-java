@@ -1,6 +1,11 @@
 package practicals.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * Practical-22 A program to prepare the list in remove duplicate values of the list.
+ * Practical-22 A program to prepare the list in remove duplicate values of the
+ * list.
  * 
  * @author Shailesh Sinh
  * 
@@ -8,9 +13,6 @@ package practicals.collection;
  *
  * @version 1.0.1
  */
-import java.util.ArrayList;
-import java.util.List;
-
 public class ListRemoveDuplicateAlphabet {
 
 	public static void main(String[] args) {
@@ -33,7 +35,7 @@ public class ListRemoveDuplicateAlphabet {
 				}
 			}
 		}
-		
+
 		// New List data get and print all data
 		for (int i = 0; i < listOfAlphabet.size(); i++) {
 			System.out.println("New List : " + listOfAlphabet.get(i));

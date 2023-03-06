@@ -1,4 +1,6 @@
 package practicals;
+import java.util.Scanner;
+
 /**
  * Practical-3 a program to find the current month name from the given number of the switch case. 
  * 
@@ -8,8 +10,6 @@ package practicals;
  *
  * @version 1.0.1
  */
-import java.util.Scanner;
-
 public class MonthFind {
 
 	public static void main(String[] args) {

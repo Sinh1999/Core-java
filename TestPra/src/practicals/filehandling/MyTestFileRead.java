@@ -1,4 +1,8 @@
 package practicals.filehandling;
+
+import java.io.File;
+import java.io.IOException;
+
 /**
  * Practical-24 A program to create a text file
  * 
@@ -8,9 +12,6 @@ package practicals.filehandling;
  * 
  * @version 1.0.1
  */
-import java.io.File;
-import java.io.IOException;
-
 public class MyTestFileRead {
 
 	public static void main(String[] args) {

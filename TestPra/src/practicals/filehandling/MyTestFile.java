@@ -1,7 +1,12 @@
 package practicals.filehandling;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 /**
- * Practical-25 a program to read the data from a myTestFile file
- * Using File Handling, Input Handling, Loops, String Handling, and Exception Handling
+ * Practical-25 a program to read the data from a myTestFile file Using File
+ * Handling, Input Handling, Loops, String Handling, and Exception Handling
  * 
  * @author Shailesh Sinh
  * 
@@ -9,10 +14,6 @@ package practicals.filehandling;
  *
  * @version 1.0.1
  */
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
 public class MyTestFile {
 
 	public static void main(String[] args) {

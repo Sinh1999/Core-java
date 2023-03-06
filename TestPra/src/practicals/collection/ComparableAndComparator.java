@@ -1,4 +1,9 @@
 package practicals.collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * Practical-23 A program to demonstrate comparable and comparator interface.
  * 
@@ -8,10 +13,6 @@ package practicals.collection;
  *
  * @version 1.0.1
  */
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 public class ComparableAndComparator {
 
 	public static void main(String[] args) {

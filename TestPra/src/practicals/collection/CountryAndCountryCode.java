@@ -1,4 +1,10 @@
 package practicals.collection;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 /**
  * Practical-21 A program using Map and Set concepts.
  * 
@@ -9,11 +15,6 @@ package practicals.collection;
  * @version 1.0.1
  *
  */
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
 public class CountryAndCountryCode {
 
 	public static void main(String[] args) {

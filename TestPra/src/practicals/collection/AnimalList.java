@@ -1,6 +1,12 @@
 package practicals.collection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 /**
- * Practical-20 A program to add string values in the list and print all the values using an iterator.
+ * Practical-20 A program to add string values in the list and print all the
+ * values using an iterator.
  * 
  * @author Shailesh Sinh
  * 
@@ -8,11 +14,6 @@ package practicals.collection;
  *
  * @version 1.0.1
  */
-
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 public class AnimalList {
 
 	public static void main(String[] args) {
