@@ -12,6 +12,7 @@ public class AgeCheck {
 
 	public static void main(String[] args) {
 		int age = 19;
+		
 		// If Check Your age You are Adult or not.
 		if (age >= 18) {
 			System.out.println("You are adult");

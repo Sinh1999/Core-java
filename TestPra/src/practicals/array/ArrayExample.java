@@ -10,13 +10,14 @@ package practicals.array;
  */
 public class ArrayExample {
 
-	// This method is create for findArray element index {@link Number#}
+	// This method is create for findArray element index
 	public void findIndexArray(int array[], int element) {
 		// Check array in element available or not
 		if (array.length < 0) {
 			System.out.println("Array Not valid");
 		} else {
 			for (int i = 0; i < array.length; i++) {
+
 				// Compare to element number and array element if exist or not
 				if (array[i] == element) {
 					System.out.println("Your array element " + array[i] + " index number is : " + i);

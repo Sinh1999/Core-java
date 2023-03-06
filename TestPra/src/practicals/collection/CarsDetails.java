@@ -15,9 +15,7 @@ package practicals.collection;
 public class CarsDetails implements Comparable<CarsDetails> {
 
 	public String carName;
-
 	public String carModel;
-
 	public Integer carPrice;
 
 	@Override

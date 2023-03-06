@@ -11,10 +11,8 @@ package practicals;
 public class StarPatterExample {
 
 	public static void main(String[] args) {
-		// Column in print "*" for using 'for' loop
-		for (int i = 0; i <= 5; i++) {
-			// Row in print "*" for using 'for' loop
-			for (int j = 0; j < i; j++) {
+		for (int i = 0; i <= 5; i++) {// Column in print "*" for using 'for' loop
+			for (int j = 0; j < i; j++) {// Row in print "*" for using 'for' loop
 				System.out.print(" * ");
 			}
 			System.out.println(" ");

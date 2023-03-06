@@ -20,6 +20,7 @@ public class MyTestFile {
 
 		try { // Scanner Class use to user input
 			Scanner fileRead = new Scanner(file);
+
 			// While loop helps to text file in line exist or not checked after read the line
 			while (fileRead.hasNextLine()) {
 				String fileData = fileRead.nextLine();

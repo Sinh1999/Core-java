@@ -22,8 +22,8 @@ public class ExceptionHandling {
 
 	public static void main(String[] args) {
 		int array[] = { 1, 5, 7, 8 };
-		// Try Block in excuted code writing
-		try {
+
+		try { // Try Block in excuted code writing
 			System.out.println(array[6]);
 		} catch (Exception e) { // Catch block in exception show
 			System.out.println(e);

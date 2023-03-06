@@ -20,7 +20,7 @@ public class MultiplictionWithConstructor {
 		int number1 = multipilicationNumber;
 		int number2 = multipilicationNumber2;
 
-		System.out.println("Multipliction  " + number1 * number2);
+		System.out.println("Multipliction  " + (number1 * number2));
 	}
 
 	public static void main(String[] args) {

@@ -12,12 +12,14 @@ public class WhileAndDoWhileLoop {
 
 	public static void main(String[] args) {
 		int number = 0;
+
 		// While loop
 		while (number <= 10) {
 			System.out.println("Numbers for while loop : " + number);
 			number++;
 		}
 		int number2 = 0;
+
 		// Do While loop
 		do {
 			System.out.println("Number for doWhile loop : " + number2);

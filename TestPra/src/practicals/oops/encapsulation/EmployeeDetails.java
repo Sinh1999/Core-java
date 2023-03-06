@@ -12,7 +12,6 @@ public class EmployeeDetails {
 
 	// Private Access modifier using only class
 	private String name;
-
 	private int number;
 
 	// Get method use to private variable getting

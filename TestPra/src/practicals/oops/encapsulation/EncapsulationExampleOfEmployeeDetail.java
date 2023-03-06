@@ -12,6 +12,7 @@ public class EncapsulationExampleOfEmployeeDetail {
 
 	public static void main(String[] args) {
 		EmployeeDetails employeeDetails = new EmployeeDetails();
+
 		// Set the date for employee details
 		employeeDetails.setName("Shailesh");
 		employeeDetails.setNumber(789456132);
