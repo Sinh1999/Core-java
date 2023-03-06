@@ -15,7 +15,6 @@ public class MonthFind {
 	public static void main(String[] args) {
 		// Scanner class to use of user input
 		Scanner scanner = new Scanner(System.in);
-
 		int month = scanner.nextInt();
 
 		switch (month) {
