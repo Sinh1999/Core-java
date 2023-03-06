@@ -9,16 +9,18 @@ package practicals.oops.encapsulation;
  * @version 1.0.1
  */
 public class EmployeeDetails {
-	
-	// Private Access modifier using only class 
+
+	// Private Access modifier using only class
 	private String name;
-	
+
 	private int number;
-	 // Get method use to private variable getting	
+
+	// Get method use to private variable getting
 	public String getName() {
 		return name;
 	}
-	 // Set method use to private variable set the data
+
+	// Set method use to private variable set the data
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -30,5 +32,5 @@ public class EmployeeDetails {
 	public void setNumber(int number) {
 		this.number = number;
 	}
-	
+
 }

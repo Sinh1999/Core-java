@@ -9,24 +9,11 @@ package practicals.oops.interfac;
  * @version 1.0.1
  */
 public interface InterfaceMethods {
-	
-	/**
-	 *This method is Only print statement.
- 	 * 
- 	 * 
-	 * @author Shailesh Sinh
-	 * 
-	 * @since 01-03-2023
-	 */
+
+	// This method is Only print statement.
 	public void call();
-	
-	/**
-	 *This method is Only print statement.
- 	 * 
-	 * @author Shailesh Sinh
-	 * 
-	 * @since 01-03-2023
-	 */
+
+	// This method is Only print statement.
 	public void run();
-	
+
 }

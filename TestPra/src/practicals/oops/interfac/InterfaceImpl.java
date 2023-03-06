@@ -19,12 +19,12 @@ public class InterfaceImpl implements InterfaceMethods {
 	public void run() {
 		System.out.println("Calling method run");
 	}
-	
+
 	public static void main(String[] args) {
-		InterfaceImpl  interfaceImpl =  new InterfaceImpl();
-		
+		InterfaceImpl interfaceImpl = new InterfaceImpl();
+
 		interfaceImpl.call();
 		interfaceImpl.run();
 	}
-	
+
 }

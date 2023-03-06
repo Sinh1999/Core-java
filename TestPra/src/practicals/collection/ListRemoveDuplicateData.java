@@ -1,5 +1,4 @@
 package practicals.collection;
-
 /**
  * Practical-22 A program to prepare the list in remove duplicate values of the list.
  * 
@@ -9,16 +8,15 @@ package practicals.collection;
  *
  * @version 1.0.1
  */
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class ListRemoveDuplicateData {
 
 	public static void main(String[] args) {
-		// Add list in duplicate data 
-		List<String> list =  new ArrayList<>();
-		
+		// Add list in duplicate data
+		List<String> list = new ArrayList<>();
+
 		list.add("A");
 		list.add("B");
 		list.add("C");
@@ -27,11 +25,11 @@ public class ListRemoveDuplicateData {
 		list.add("A");
 		list.add("C");
 		list.add("E");
-		
+
 		for (int i = 0; i < list.size(); i++) {
-			for (int j = i+1; j < list.size(); j++) {
+			for (int j = i + 1; j < list.size(); j++) {
 				if (list.get(i).equals(list.get(j))) { // Check in list duplicate data available or note .
-					 list.remove(i);
+					list.remove(i);
 				}
 			}
 		}
@@ -40,5 +38,5 @@ public class ListRemoveDuplicateData {
 			System.out.println("New List : " + list.get(i));
 		}
 	}
-	
+
 }

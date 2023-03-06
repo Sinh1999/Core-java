@@ -14,39 +14,27 @@ public class StaticKeyword {
 	static {
 		System.out.println("Wel-Come");
 	}
-	String name ;
-	
-	 // Static variable 
-	public static String companyName= "Qdev";
-	/**
-	 *This method is static print statement.
- 	 * 
-	 * @author Shailesh Sinh
-	 * 
-	 * @since 01-03-2023
-	 */
- 	public static void greeting() {
+	String name;
+
+	// Static variable
+	public static String companyName = "Qdev";
+
+	// This method is static print statement.
+	public static void greeting() {
 		System.out.println("Hello, Good Moring");
 	}
- 	/**
-	 *This method is Only print statement.
-	 *
-	 *@param String 
- 	 * 
-	 * @author Shailesh Sinh
-	 * 
-	 * @since 01-03-2023
-	 */
+
+	// This method is Only print statement.
 	public void details(String name1) {
 		this.name = name1;
 		System.out.println("Name : " + name + "  " + companyName);
 	}
-	
+
 	public static void main(String[] args) {
-		 // Static method or variable without create new object use
+		// Static method or variable without create new object use
 		greeting();
 		StaticKeyword staticKeyword = new StaticKeyword();
 		staticKeyword.details("shailesh");
 	}
-	
+
 }

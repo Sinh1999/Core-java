@@ -11,13 +11,13 @@ package practicals;
 public class IfElseStatements {
 
 	public static void main(String[] args) {
-		int age = 19 ;
+		int age = 19;
 		// If Check Your age You are Adult or not.
 		if (age >= 18) {
-			System.out.println("You are adult");				   
+			System.out.println("You are adult");
 		} else {
 			System.out.println("You are not adult");
 		}
 	}
-	
+
 }

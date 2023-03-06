@@ -2,7 +2,8 @@ package practicals.collection;
 /**
  * Practical-23 a program to demonstrate comparable and comparator interface.
  * 
- * <p>StudentDetails class use to comparable interface sort by rolenumber.
+ * <p>
+ * StudentDetails class use to comparable interface sort by rolenumber.
  * Comparable use to single sorting.
  * </p>
  * 
@@ -12,25 +13,23 @@ package practicals.collection;
  * 
  * @version 1.0.1
  */
-public class StudentDetails implements Comparable<StudentDetails>{
+public class StudentDetails implements Comparable<StudentDetails> {
 
 	String name;
-	
 	Integer roleNumber;
-	
 	String schoolName;
 
 	@Override
 	public int compareTo(StudentDetails studentDetails) {
-		return roleNumber - studentDetails.roleNumber ;
+		return roleNumber - studentDetails.roleNumber;
 	}
-	
+
 	public StudentDetails(String name, Integer roleNumber, String schoolName) {
 		this.name = name;
 		this.roleNumber = roleNumber;
 		this.schoolName = schoolName;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "StudentDetails [name=" + name + ", roleNumber=" + roleNumber + ", schoolName=" + schoolName + "]";

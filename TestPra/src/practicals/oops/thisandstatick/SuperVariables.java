@@ -10,19 +10,14 @@ package practicals.oops.thisandstatick;
  */
 public class SuperVariables extends ThisVariables {
 
-	/**
-	 *This method is use of super key. 
- 	 * 
-	 * @author Shailesh Sinh
-	 * 
-	 * @since 01-03-2023
-	 */
-	public void number () {
+	// This method is use of super key.
+	public void number() {
 		System.out.println("This is super keyword :" + super.number);
 	}
-	
+
 	public static void main(String[] args) {
-		new SuperVariables().number();;
+		new SuperVariables().number();
+		;
 	}
-	
+
 }

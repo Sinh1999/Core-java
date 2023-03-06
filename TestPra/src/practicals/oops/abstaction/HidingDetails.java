@@ -9,12 +9,13 @@ package practicals.oops.abstaction;
  * @version 1.0.1
  */
 public abstract class HidingDetails {
-	
-	 // Non-Abstract method
-	void run () {
+
+	// Non-Abstract method
+	void run() {
 		System.out.println("Calling non- abtsract method");
 	}
+
 	// Abstract method
 	abstract void call();
-	
+
 }

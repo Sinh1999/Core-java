@@ -14,5 +14,5 @@ public class HelloWorld {
 		// Print hello world.
 		System.out.println("Hello World");
 	}
-	
+
 }

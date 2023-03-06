@@ -11,15 +11,15 @@ package practicals.oops.thisandstatick;
 public class ThisVariables {
 
 	int number = 5;
-	
-	 // This keyword use to reference variable that refers to the current object.
+
+	// This keyword use to reference variable that refers to the current object.
 	public void number(int number) {
 		this.number = number;
 		System.out.println("This keyword : " + this.number);
 	}
-	
+
 	public static void main(String[] args) {
 		new ThisVariables().number(20);
 	}
-	
+
 }

@@ -2,7 +2,9 @@ package practicals.collection;
 /**
  * Practical-23 A program to demonstrate comparable and comparator interface.
  * 
- *<p>CarDetails class use comparable interface by sorting by price</p> 
+ * <p>
+ * CarDetails class use comparable interface by sorting by price
+ * </p>
  * 
  * @author Shailesh Sinh
  * 
@@ -12,10 +14,10 @@ package practicals.collection;
  */
 public class CarsDetails implements Comparable<CarsDetails> {
 
-	public String carName; 
-	
+	public String carName;
+
 	public String carModel;
-	
+
 	public Integer carPrice;
 
 	@Override
