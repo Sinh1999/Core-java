@@ -30,9 +30,4 @@ public class StudentDetails implements Comparable<StudentDetails> {
 		this.schoolName = schoolName;
 	}
 
-	@Override
-	public String toString() {
-		return "StudentDetails [name=" + name + ", roleNumber=" + roleNumber + ", schoolName=" + schoolName + "]";
-	}
-
 }
