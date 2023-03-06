@@ -8,7 +8,7 @@ package practicals.oops.encapsulation;
  *
  * @version 1.0.1
  */
-public class Encapsulation {
+public class EncapsulationExampleOfEmployeeDetail {
 
 	public static void main(String[] args) {
 		EmployeeDetails employeeDetails = new EmployeeDetails();

@@ -25,11 +25,6 @@ public class CarsDetails implements Comparable<CarsDetails> {
 		return carPrice - price.carPrice;
 	}
 
-	@Override
-	public String toString() {
-		return "CarsDetails [carName=" + carName + ", carModel=" + carModel + ", carPrice=" + carPrice + "]";
-	}
-
 	public CarsDetails(String carName, String carModel, Integer carPrice) {
 		this.carName = carName;
 		this.carModel = carModel;

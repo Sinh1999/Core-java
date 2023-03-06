@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Collections {
+public class AnimalList {
 
 	public static void main(String[] args) {
 		// List in add some animal name

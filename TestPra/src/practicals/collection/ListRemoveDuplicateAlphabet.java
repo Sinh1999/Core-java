@@ -11,7 +11,7 @@ package practicals.collection;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListRemoveDuplicateData {
+public class ListRemoveDuplicateAlphabet {
 
 	public static void main(String[] args) {
 		// Add list in duplicate data

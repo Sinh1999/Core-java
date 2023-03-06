@@ -8,7 +8,7 @@ package practicals;
  *
  * @version 1.0.1
  */
-public class ForLoop {
+public class StarPatterExample {
 
 	public static void main(String[] args) {
 		// Column in print "*" for using 'for' loop

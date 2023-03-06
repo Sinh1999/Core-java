@@ -8,7 +8,7 @@ package practicals.oops.thisandstatick;
  *
  * @version 1.0.1
  */
-public class SuperVariables extends ThisVariables {
+public class SuperVariables extends NumberPrintWithThisAndSuperVariable {
 
 	// This method is use of super key.
 	public void number() {

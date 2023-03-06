@@ -8,12 +8,12 @@ package practicals.oops.interfac;
  *
  * @version 1.0.1
  */
-public interface InterfaceMethods {
+public interface AnimalSound {
 
 	// This method is Only print statement.
-	public void call();
+	public void Dog();
 
 	// This method is Only print statement.
-	public void run();
+	public void Cat();
 
 }

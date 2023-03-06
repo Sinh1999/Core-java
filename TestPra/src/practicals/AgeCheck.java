@@ -8,7 +8,7 @@ package practicals;
  *
  * @version 1.0.1
  */
-public class IfElseStatements {
+public class AgeCheck {
 
 	public static void main(String[] args) {
 		int age = 19;

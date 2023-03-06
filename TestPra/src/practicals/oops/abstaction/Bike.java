@@ -8,14 +8,14 @@ package practicals.oops.abstaction;
  *
  * @version 1.0.1
  */
-public abstract class HidingDetails {
+public abstract class Bike {
 
 	// Non-Abstract method
-	void run() {
-		System.out.println("Calling non- abtsract method");
+	void EngineStart() {
+		System.out.println("Engine Start....");
 	}
 
 	// Abstract method
-	abstract void call();
+	abstract void HornBlowing();
 
 }

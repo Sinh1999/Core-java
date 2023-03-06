@@ -10,19 +10,15 @@ package practicals;
  */
 public class MultiplictionWithConstructor {
 
-	public int number1;
-
-	public int number2;
-
 	// Default constructor
 	public MultiplictionWithConstructor() {
 		System.out.println("This is Default Constuctor");
 	}
 
 	// Parameterized constructor
-	public MultiplictionWithConstructor(int number1, int number2) {
-		this.number1 = number1;
-		this.number2 = number2;
+	public MultiplictionWithConstructor(int multipilicationNumber, int multipilicationNumber2) {
+		int number1 = multipilicationNumber;
+		int number2 = multipilicationNumber2;
 
 		System.out.println("Multipliction  " + number1 * number2);
 	}

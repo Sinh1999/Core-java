@@ -8,7 +8,7 @@ package practicals.oops.thisandstatick;
  *
  * @version 1.0.1
  */
-public class StaticKeyword {
+public class StudentDetailsWithStatic {
 
 	// Static Block run before main method
 	static {
@@ -17,7 +17,7 @@ public class StaticKeyword {
 	String name;
 
 	// Static variable
-	public static String companyName = "Qdev";
+	public static String collegaeName = "Qdev";
 
 	// This method is static print statement.
 	public static void greeting() {
@@ -27,14 +27,14 @@ public class StaticKeyword {
 	// This method is Only print statement.
 	public void details(String name1) {
 		this.name = name1;
-		System.out.println("Name : " + name + "  " + companyName);
+		System.out.println("Name : " + name + "  " + collegaeName);
 	}
 
 	public static void main(String[] args) {
 		// Static method or variable without create new object use
 		greeting();
-		StaticKeyword staticKeyword = new StaticKeyword();
-		staticKeyword.details("shailesh");
+		StudentDetailsWithStatic studentDetailsWithStatic = new StudentDetailsWithStatic();
+		studentDetailsWithStatic.details("shailesh");
 	}
 
 }

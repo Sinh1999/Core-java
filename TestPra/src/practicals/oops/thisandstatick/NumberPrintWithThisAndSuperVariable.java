@@ -8,7 +8,7 @@ package practicals.oops.thisandstatick;
  *
  * @version 1.0.1
  */
-public class ThisVariables {
+public class NumberPrintWithThisAndSuperVariable {
 
 	int number = 5;
 
@@ -19,7 +19,7 @@ public class ThisVariables {
 	}
 
 	public static void main(String[] args) {
-		new ThisVariables().number(20);
+		new NumberPrintWithThisAndSuperVariable().number(20);
 	}
 
 }

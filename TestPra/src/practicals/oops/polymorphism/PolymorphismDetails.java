@@ -9,7 +9,7 @@ package practicals.oops.polymorphism;
  *
  * @version 1.0.1
  */
-public class Polymorphism extends RunTimePolymorphism {
+public class PolymorphismDetails extends RunTimePolymorphism {
 
 	// Create compile time polymorphism method
 	public void compileMethod() {
@@ -27,11 +27,11 @@ public class Polymorphism extends RunTimePolymorphism {
 	}
 
 	public static void main(String[] args) {
-		Polymorphism polymorphism = new Polymorphism();
+		PolymorphismDetails polymorphismDetails = new PolymorphismDetails();
 
-		polymorphism.compileMethod();
-		polymorphism.compileMethod("Hello");
-		polymorphism.method();
+		polymorphismDetails.compileMethod();
+		polymorphismDetails.compileMethod("Hello");
+		polymorphismDetails.method();
 	}
 
 }

@@ -14,7 +14,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class MapAndSet {
+public class CountryAndCountryCode {
 
 	public static void main(String[] args) {
 		// Use map in key value pair
