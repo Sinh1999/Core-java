@@ -17,7 +17,6 @@ public class SuperVariables extends ThisVariables {
 
 	public static void main(String[] args) {
 		new SuperVariables().number();
-		;
 	}
 
 }

@@ -15,27 +15,27 @@ public class ListRemoveDuplicateData {
 
 	public static void main(String[] args) {
 		// Add list in duplicate data
-		List<String> list = new ArrayList<>();
+		List<String> listOfAlphabet = new ArrayList<>();
 
-		list.add("A");
-		list.add("B");
-		list.add("C");
-		list.add("D");
-		list.add("E");
-		list.add("A");
-		list.add("C");
-		list.add("E");
+		listOfAlphabet.add("A");
+		listOfAlphabet.add("B");
+		listOfAlphabet.add("C");
+		listOfAlphabet.add("D");
+		listOfAlphabet.add("E");
+		listOfAlphabet.add("A");
+		listOfAlphabet.add("C");
+		listOfAlphabet.add("E");
 
-		for (int i = 0; i < list.size(); i++) {
-			for (int j = i + 1; j < list.size(); j++) {
-				if (list.get(i).equals(list.get(j))) { // Check in list duplicate data available or note .
-					list.remove(i);
+		for (int i = 0; i < listOfAlphabet.size(); i++) {
+			for (int j = i + 1; j < listOfAlphabet.size(); j++) {
+				if (listOfAlphabet.get(i).equals(listOfAlphabet.get(j))) { // Check in list duplicate data available or note .
+					listOfAlphabet.remove(i);
 				}
 			}
 		}
 		// New List data get and print all data
-		for (int i = 0; i < list.size(); i++) {
-			System.out.println("New List : " + list.get(i));
+		for (int i = 0; i < listOfAlphabet.size(); i++) {
+			System.out.println("New List : " + listOfAlphabet.get(i));
 		}
 	}
 

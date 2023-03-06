@@ -20,6 +20,7 @@ public class Inheritance {
 		son.grandParent();
 		son.parents();
 		son.son();
+
 		// Hierarchical Inheritance call by constructor
 		Daughter daughter = new Daughter();
 

@@ -17,19 +17,18 @@ public class Collections {
 
 	public static void main(String[] args) {
 		// List in add some animal name
-		List<String> list = new ArrayList<>();
+		List<String> listOfAnimal = new ArrayList<>();
 
-		list.add("Dog");
-		list.add("Cat");
-		list.add("Cow");
-		list.add("Lion");
+		listOfAnimal.add("Dog");
+		listOfAnimal.add("Cat");
+		listOfAnimal.add("Cow");
+		listOfAnimal.add("Lion");
 
 		// Iterator using getting data
-		Iterator iterator = list.iterator();
+		Iterator iterator = listOfAnimal.iterator();
 
 		while (iterator.hasNext()) {
 			System.out.println(iterator.next());
-
 		}
 	}
 

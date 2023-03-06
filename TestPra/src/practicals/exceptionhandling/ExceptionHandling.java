@@ -21,16 +21,14 @@ public class ExceptionHandling {
 	}
 
 	public static void main(String[] args) {
-		int num = 50;
+		int array[] = { 1, 5, 7, 8 };
 		// Try Block in excuted code writing
 		try {
-			num = num / 0;
+			System.out.println(array[6]);
 		} catch (Exception e) { // Catch block in exception show
 			System.out.println(e);
 			System.out.println("Check Your code");
-		}
-		// Final block is always execute
-		finally {
+		} finally { // Final block is always execute
 			System.out.println("Final block is always excicute");
 		}
 

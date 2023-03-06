@@ -34,7 +34,6 @@ public class CarsDetails implements Comparable<CarsDetails> {
 		this.carName = carName;
 		this.carModel = carModel;
 		this.carPrice = carPrice;
-
 	}
 
 }

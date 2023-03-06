@@ -11,16 +11,16 @@ package practicals;
  */
 public class WrapperClasses {
 
-    public static void main(String[] args) {
-        // Integer using Wrapper class
-        Integer number = 102;
-        Integer number2 = 103;
+	public static void main(String[] args) {
+		// Integer using Wrapper class
+		Integer number = 102;
+		Integer number2 = 103;
 
-        if (number == number2) {
-            System.out.println("Same Objects");
-        } else {
-            System.out.println("Not same objects");
-        }
-    }
+		if (number == number2) {
+			System.out.println("Same Objects");
+		} else {
+			System.out.println("Not same objects");
+		}
+	}
 
 }

@@ -12,13 +12,13 @@ package practicals.exceptionhandling;
 public class ThrowsExceptionHandling {
 
 	// This method in using for Division
-	public void divide(int num, int num2) throws ArithmeticException {
-		int d = num / num2;
+	public void divide(int number, int number2) throws ArithmeticException {
+		System.out.println("Division : " + number / number2);
 	}
 
 	public static void main(String[] args) {
 		ThrowsExceptionHandling throwsExceptionHandling = new ThrowsExceptionHandling();
-		throwsExceptionHandling.divide(15, 0);
+		throwsExceptionHandling.divide(15, 3);
 	}
 
 }

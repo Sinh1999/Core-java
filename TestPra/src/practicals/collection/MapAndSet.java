@@ -18,28 +18,28 @@ public class MapAndSet {
 
 	public static void main(String[] args) {
 		// Use map in key value pair
-		Map<Integer, String> map = new HashMap<>();
+		Map<Integer, String> countryAndCode = new HashMap<>();
 
-		map.put(1, "Sailesh");
-		map.put(2, "Jay");
-		map.put(3, "Javin");
-		map.put(4, "Kevin");
+		countryAndCode.put(91, "India");
+		countryAndCode.put(92, "Pakistan");
+		countryAndCode.put(94, "ShriLanka");
+		countryAndCode.put(1, "USA");
 
 		// Map in get values for use keys
-		for (int i = 0; i <= map.size(); i++) {
-			System.out.println(map.get(i));
+		for (int i = 0; i <= countryAndCode.size(); i++) {
+			System.out.println(countryAndCode.get(i));
 		}
 
 		// Set in data is no duplication.
-		Set<String> set = new HashSet<>();
+		Set<String> setOfCountry = new HashSet<>();
 
-		set.add("India");
-		set.add("bhutan");
-		set.add("ShriLanka");
-		set.add("America");
-		set.add("bhutan");
+		setOfCountry.add("India");
+		setOfCountry.add("bhutan");
+		setOfCountry.add("ShriLanka");
+		setOfCountry.add("America");
+		setOfCountry.add("bhutan");
 
-		System.out.println(set);
+		System.out.println(setOfCountry);
 	}
 
 }

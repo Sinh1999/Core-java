@@ -11,15 +11,15 @@ package practicals.array;
 public class ArrayExample {
 
 	// This method is create for findArray element index {@link Number#}
-	public void findIndexArray(int arr[], int element) {
+	public void findIndexArray(int array[], int element) {
 		// Check array in element available or not
-		if (arr.length < 0) {
+		if (array.length < 0) {
 			System.out.println("Array Not valid");
 		} else {
-			for (int i = 0; i < arr.length; i++) {
-				// Compare to elemnet number and array elment if exist or not
-				if (arr[i] == element) {
-					System.out.println("Your array element " + arr[i] + " index number is : " + i);
+			for (int i = 0; i < array.length; i++) {
+				// Compare to element number and array element if exist or not
+				if (array[i] == element) {
+					System.out.println("Your array element " + array[i] + " index number is : " + i);
 				}
 			}
 		}
