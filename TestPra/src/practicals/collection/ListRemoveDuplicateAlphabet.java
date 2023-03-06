@@ -33,6 +33,7 @@ public class ListRemoveDuplicateAlphabet {
 				}
 			}
 		}
+		
 		// New List data get and print all data
 		for (int i = 0; i < listOfAlphabet.size(); i++) {
 			System.out.println("New List : " + listOfAlphabet.get(i));
